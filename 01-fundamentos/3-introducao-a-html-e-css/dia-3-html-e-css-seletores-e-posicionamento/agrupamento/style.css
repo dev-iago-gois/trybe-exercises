@@ -1,4 +1,6 @@
-h1,
+/* exc 1 */
+
+/* h1,
 p,
 ol {
     text-align: center;
@@ -19,4 +21,10 @@ li:active {
 
 ul {
     list-style: none;
+} */
+
+/* exc2 */
+
+div:hover {
+    border: 1px solid red;
 }
