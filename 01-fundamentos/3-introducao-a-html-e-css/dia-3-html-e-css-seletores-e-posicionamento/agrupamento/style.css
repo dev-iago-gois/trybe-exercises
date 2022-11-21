@@ -1,0 +1,30 @@
+/* exc 1 */
+
+/* h1,
+p,
+ol {
+    text-align: center;
+}
+
+ol {
+    list-style: none;
+}
+
+li:hover {
+    background-color: red;
+}
+
+li:active {
+    font-family: sans-serif;
+    color: black;
+}
+
+ul {
+    list-style: none;
+} */
+
+/* exc2 */
+
+div:hover {
+    border: 1px solid red;
+}
