@@ -1,3 +1,4 @@
+/* Configs gerais */
 *{
     margin: 0;
     padding: 0;
@@ -5,6 +6,7 @@
 ul{
     list-style: none;
 }
+/* Configs Navbar */
 .cabecalho nav ul{
     background-color: #212529;
     display: flex;
@@ -20,11 +22,52 @@ ul{
     text-decoration: none;
     color: #f8f9fa;
 }
+/* Configs Main sec-1 */
 main{
     background-color: #f8f9fa;
 }
 main article{
     display: flex;
     flex-direction: column;
+    text-align: center;
+}
+.stoma{
+    font-size: 64px;
+    padding-bottom: 32px;
+}
+.stoma:hover{
+    color: #ff6b6b;
+}
+h2{
+    font-size: 32px;
+    padding: 32px;
+}
+p{
+    text-align: left;
+    margin: auto 100px;
+    padding: 32px;
+}
+.scientific-name{
+    color: #ff6b6b;
+}
+
+strong{
+    color: #ff6b6b;
+}
+img{
+    border: 8px solid #ff6b6b;
+    border-radius: 50%;
+}
+.main-biblio{
+    margin-bottom: 32px;
+}
+.main-biblio ul li a{
+    text-decoration: none;
+    
+}
+footer{
+    background-color: #212529;
+    color: #f8f9fa;
+    padding: 8px;
     text-align: center;
 }
