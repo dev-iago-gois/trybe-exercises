@@ -5,22 +5,31 @@
     
     
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-let sum = 0;
+let sum = numbers[0];
 
-
-// Imprimir quiantidade de impares
 for(let i = 0; i < numbers.length; i += 1){
-    if(numbers[i] % 2){
-        sum += 1;
-    } else{
+    if(numbers[i] < sum){
+        sum = numbers[i];
+    }else{};
+}
+console.log('O menor numero contido em "numbers" e: ' + sum + '.');
+
+
+
+
+// @Imprimir quiantidade de impares
+// for(let i = 0; i < numbers.length; i += 1){
+//     if(numbers[i] % 2){
+//         sum += 1;
+//     } else{
         
-    }
-}
-if(sum === 0){
-    console.log('Nenhum valor impar encontrado');
-} else{
-    console.log('Existem ' + sum + ' numeros impares');
-}
+//     }
+// }
+// if(sum === 0){
+//     console.log('Nenhum valor impar encontrado');
+// } else{
+//     console.log('Existem ' + sum + ' numeros impares');
+// }
 
 
 // @imprimir o maior valor
