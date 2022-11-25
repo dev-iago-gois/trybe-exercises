@@ -6,12 +6,12 @@
     
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 let sum = numbers[0];
-let a1a25 = [];
+let de1a25 = [];
 
 for (let i = 1; i <= 25; i += 1){
-    a1a25.push(i);
+    de1a25.push(i);
 }
-console.log(a1a25);
+console.log(de1a25);
 
 
 
