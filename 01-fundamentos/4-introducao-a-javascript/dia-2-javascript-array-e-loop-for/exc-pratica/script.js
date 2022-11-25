@@ -6,15 +6,27 @@
     
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 let sum = numbers[0];
+let a1a25 = [];
 
-for(let i = 0; i < numbers.length; i += 1){
-    if(numbers[i] < sum){
-        sum = numbers[i];
-    }else{};
+for (let i = 1; i <= 25; i += 1){
+    a1a25.push(i);
 }
-console.log('O menor numero contido em "numbers" e: ' + sum + '.');
+console.log(a1a25);
 
 
+
+
+
+
+
+
+// @menor numero array
+// for(let i = 0; i < numbers.length; i += 1){
+//     if(numbers[i] < sum){
+//         sum = numbers[i];
+//     }else{};
+// }
+// console.log('O menor numero contido em "numbers" e: ' + sum + '.');
 
 
 // @Imprimir quiantidade de impares
