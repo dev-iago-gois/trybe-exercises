@@ -13,6 +13,10 @@ for (let i = 1; i <= 25; i += 1){
 }
 console.log(de1a25);
 
+for(let i = 0; i < de1a25.length; i += 1){
+    console.log(de1a25[i] + ' : 2 = ' + de1a25[i] / 2);
+};
+
 
 
 
