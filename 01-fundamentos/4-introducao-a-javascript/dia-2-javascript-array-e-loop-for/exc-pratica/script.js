@@ -7,12 +7,34 @@
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 let sum = 0;
 
+
+// Imprimir quiantidade de impares
 for(let i = 0; i < numbers.length; i += 1){
-    if(numbers[i] > sum){
-        sum = numbers[i];
-    }else{};
+    if(numbers[i] % 2){
+        sum += 1;
+    } else{
+        
+    }
 }
-console.log('O maior numero contido em "numbers" e: ' + sum + '.');
+if(sum === 0){
+    console.log('Nenhum valor impar encontrado');
+} else{
+    console.log('Existem ' + sum + ' numeros impares');
+}
+
+
+// @imprimir o maior valor
+// for(let i = 0; i < numbers.length; i += 1){
+//     if(numbers[i] > sum){
+//         sum = numbers[i];
+//     }else{};
+// }
+// console.log('O maior numero contido em "numbers" e: ' + sum + '.');
+
+
+
+
+// @percorrido o array, somado todos os valores, estutura if > 20
 // for(let i = 0; i < numbers.length; i += 1){
 //     sum += numbers[i];
 //     // sum = numbers[i] + sum; -- igual ao de cima
