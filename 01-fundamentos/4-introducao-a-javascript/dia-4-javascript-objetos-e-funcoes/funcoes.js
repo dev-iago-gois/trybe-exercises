@@ -52,24 +52,24 @@
 
 // Faça um programa que, dado um valor recebido como parâmetro, retorne “positive” se esse valor for positivo, “negative” se for negativo, e caso não seja nem positivo e nem negativo retorne “zero”.
 
-// function numbComp(a) {
-//     if (a > 0) {
-//         return a + ' e positivo.'
-//     } else if(a > 0){
-//         return a + ' e negativvoo.'
-//     }else{
-//         return a + ' e zero.'
-//     };
-// };
+function numbComp(a) {
+    if (a > 0) {
+        return a + ' e positivo.'
+    } else if(a < 0){
+        return a + ' e negativo.'
+    }else{
+        return a + ' e zero.'
+    };
+};
 
-// console.log(numbComp(53));
+console.log(numbComp(0));
 
 // Faça um programa que receba três constantes com os valores dos três ângulos internos de um triângulo. Retorne true se os ângulos representarem os ângulos de um triângulo e false, caso contrário. Se algum ângulo for inválido, o programa deve retornar uma mensagem de erro.
 
-function ang(a, b, c) {
-    if(a < 0 || b < 0 || c < 0){
-        return 'Angulo invalido.'
-    }
-}
+// function ang(a, b, c) {
+//     if(a < 0 || b < 0 || c < 0){
+//         return 'Angulo invalido.'
+//     }
+// }
 
-console.log(ang(110,45,25));
+// console.log(ang(110,45,25));
