@@ -7,9 +7,9 @@ changeBGColor('#header-container', 'green');
 changeBGColor('.emergency-tasks', 'red');
 changeBGColor('.no-emergency-tasks', 'yellow');
 changeBGColor('#footer-container', 'green'); 
-const changeBGColorAllNo = document.querySelectorAll('.emergency-tasks h3');
-for (let index = 0; index < changeBGColorAllNo.length; index += 1) {
-    changeBGColorAllNo[index].style.backgroundColor = 'purple';
+const varSix = document.querySelectorAll('.emergency-tasks h3');
+for (let index = 0; index < varSix.length; index += 1) {
+    varSix[index].style.backgroundColor = 'purple';
     
 };
 const changeBGColorAll = document.querySelectorAll('.no-emergency-tasks h3');
