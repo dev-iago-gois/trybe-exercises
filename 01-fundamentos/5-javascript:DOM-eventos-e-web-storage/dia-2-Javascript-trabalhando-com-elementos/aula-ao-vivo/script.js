@@ -54,8 +54,8 @@ const movies1999 = [
     
     for(let index = 0; index < movieArray.length; index += 1){
       const addMovie = document.createElement('li'); // PASSO 2 - CRIA O ELEMENTO;
-      addMovie.innerHTML = `${movieArray[index].title} - ${movieArray[index][property]}`;
-      addMovie.className = 'movieList'; // PASSO 3 - CONTEUDO DO ELEMENTO CRIADO;
+      addMovie.innerHTML = `${movieArray[index].title} - ${movieArray[index][property]}`;// PASSO 3 - CONTEUDO DO ELEMENTO CRIADO;
+      addMovie.className = 'movieList'; // PASSO 3 - ADD CLASSE
       movieList.appendChild(addMovie); //PASSO 4 - LOCAL QUE VAI SER APLICADO O ELEMENTO, NESSE CASO, FILHO DO id 'movie-list'(.appendChild);
     };
   };
