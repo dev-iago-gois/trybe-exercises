@@ -1,0 +1,15 @@
+.movieList {
+    padding: 15px;
+    font-size: 20px;
+  }
+  
+  .best-movies {
+    background-color: rgb(28, 28, 198);
+    color: white;
+    max-width: 55%;
+  }
+  
+  .h2-title {
+    text-align: center;
+    text-transform: uppercase;
+  }
